@@ -1,8 +1,8 @@
 ---
-name: Error
-about: Report an error.
-title: "[ERROR]"
-labels: Error
+name: Incompatibility
+about: Report a plugin that does not run well with this one.
+title: "[INCOMPATIBILITY]"
+labels: Incompatibility
 assignees: NikV2
 
 ---
@@ -12,19 +12,17 @@ Provide your Discord username and ID (ie: User#4252)
 Make sure you're Verified on our Discord otherwise this will
 Be marked as Invalid.
 
-**Error(s)**
-Provide a Pastebin link with your error.
-
 **Does the issue still persist on the default config?**
 Yes/No
 
-**Is the plugin up to date?**
-Yes/No
-
-**Is ProtocolLib up to date?**
+**Is the incompatible plugin up to date?**
 Yes/No
 
 **Server Environment & Version**
 Your server software (ie Paper 1.12.2)
 
-**Additional Information (Optional)**
+**Incompatible Plugin**
+Provide a link where we can find the plugin.
+
+**Information**
+Describe the incompatibility issue.
