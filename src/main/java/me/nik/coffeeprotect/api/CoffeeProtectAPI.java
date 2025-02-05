@@ -20,18 +20,4 @@ public interface CoffeeProtectAPI {
      * @param player The player
      */
     void disconnect(Player player);
-
-    /**
-     * Crash a player's client
-     *
-     * @param player The player
-     */
-    void crash(Player player);
-
-    /**
-     * Make a player feel like he's lagging
-     *
-     * @param player The player
-     */
-    void lag(Player player);
 }
